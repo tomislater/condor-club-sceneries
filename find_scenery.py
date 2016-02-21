@@ -14,7 +14,7 @@ def find_scenery(url, name):
 
     for s_name in names_of_sceneries:
         if name.lower() in s_name:
-            print "You can find a scenery '{0}' here: {1}".format(name, url)
+            print "Scenery '{0}' - {1}".format(s_name, url)
 
 
 def gather_facts(name):
